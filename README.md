@@ -12,7 +12,7 @@ Proyek ini melakukan analisis sentimen terhadap ulasan-ulasan pengguna aplikasi 
 - [Lisensi](#lisensi)
 
 ## Pendahuluan
-Proyek ini bertujuan untuk memahami bagaimana pengguna aplikasi Cookpad merespons aplikasi tersebut melalui ulasan yang mereka tinggalkan di Google Play Store. Dengan menggunakan teknik NLP, kami dapat mengklasifikasikan ulasan-ulasan ini ke dalam kategori sentimen yang berbeda seperti positif, negatif, atau netral.
+Proyek ini bertujuan untuk memahami bagaimana pengguna aplikasi Cookpad merespons aplikasi tersebut melalui ulasan yang mereka tinggalkan di Google Play Store. Dengan menggunakan teknik NLP, dapat diklasifikasikan ulasan-ulasan ini ke dalam kategori sentimen yang berbeda seperti positif atau negatif.
 
 ## Fitur
 - **Pengumpulan Data**: Scraping ulasan pengguna dari Google Play Store.
