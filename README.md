@@ -34,11 +34,9 @@ Proyek ini bertujuan untuk memahami bagaimana pengguna aplikasi Cookpad merespon
 
 
 ## Struktur Proyek
-- `data/`: Folder untuk menyimpan data mentah dan hasil pengolahan.
-- `scripts/`: Folder yang berisi skrip untuk setiap tahap analisis.
-  - `data_preprocessing.py`: Membersihkan data.
-  - `sentiment_analysis.py`: Melakukan analisis sentimen.
-- `notebooks/`: Jupyter notebooks untuk eksplorasi data dan pengembangan model.
+- `ulasan_aplikasi_cookpad2.csv`: Folder untuk menyimpan data mentah dan hasil pengolahan.
+- `Scrap_data.ipynbpy`: Mengambil data dari playstore
+- `Sentiment_Analysis_NLP.ipynb`: Melakukan analisis sentimen.
 - `requirements.txt`: Daftar dependencies yang diperlukan.
 
 ## Kontribusi
