@@ -33,7 +33,7 @@ This project aims to understand how Cookpad app users respond to the app through
 
 ## Project Structure
 - `ulasan_aplikasi_cookpad2.csv`: Folder to store raw data and processing results.
-- `Scrap_data.ipynbpy`: Scrap data from playstore.
+- `Scrap_data.ipynb`: Scrap data from playstore.
 - `Sentiment_Analysis_NLP.ipynb`: Perform sentiment analysis.
 - `requirements.txt`: List of required dependencies.
 
