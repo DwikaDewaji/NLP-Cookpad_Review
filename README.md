@@ -1,43 +1,45 @@
-# Analisis Sentimen NLP untuk Review Aplikasi Cookpad di Google Play Store
+# NLP Sentiment Analysis for Cookpad App Reviews on Google Play Store
 
-Proyek ini melakukan analisis sentimen terhadap ulasan-ulasan pengguna aplikasi Cookpad di Google Play Store menggunakan teknik Natural Language Processing (NLP).
+This project carries out sentiment analysis of user reviews of the Cookpad application on the Google Play Store using Natural Language Processing (NLP) techniques.
 
-## Daftar Isi
-- [Pendahuluan](#pendahuluan)
-- [Fitur](#fitur)
-- [Penggunaan](#penggunaan)
-- [Struktur Proyek](#struktur-proyek)
-- [Kontribusi](#kontribusi)
+## List of contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usability](#usability)
+- [Project Structure](#project-structure)
+- [Contribution](#contribution)
+- [License](#license)
+
+## Introduction
+This project aims to understand how Cookpad app users respond to the app through the reviews they leave on the Google Play Store. Using NLP techniques, it can be classified these reviews into different sentiment categories such as positive or negative.
+
+## Features
+- **Collecting Data**: Scraping user reviews from Google Play Store.
+- **Pre-Processing Data**: Removes noise and cleans data for accurate analysis.
+- **Sentiment Analysis**: Using NLP models to determine review sentiment.
+- **Data Visualization**: Graphs and plots for visualization of sentiment distribution.
 
 
-## Pendahuluan
-Proyek ini bertujuan untuk memahami bagaimana pengguna aplikasi Cookpad merespons aplikasi tersebut melalui ulasan yang mereka tinggalkan di Google Play Store. Dengan menggunakan teknik NLP, dapat diklasifikasikan ulasan-ulasan ini ke dalam kategori sentimen yang berbeda seperti positif atau negatif.
-
-## Fitur
-- **Pengumpulan Data**: Scraping ulasan pengguna dari Google Play Store.
-- **Pra-pemrosesan Data**: Menghapus noise dan membersihkan data untuk analisis yang akurat.
-- **Analisis Sentimen**: Menggunakan model NLP untuk menentukan sentimen ulasan.
-- **Visualisasi Data**: Grafik dan plot untuk visualisasi distribusi sentimen.
-- **Pelaporan**: Menyusun laporan tentang hasil analisis sentimen.
-
-
-## Penggunaan
-1. Jalankan skrip pengumpulan data untuk mendapatkan ulasan terbaru dari Google Play Store:
+## Usability
+1. Run the data collection script to get the latest reviews from Google Play Store:
     ```sh
     python Scrap_data.ipynb
     ```
-2. Jalankan skrip analisis sentimen untuk mengklasifikasikan ulasan:
+2. Run a sentiment analysis script to classify reviews:
     ```sh
     python Sentiment_Analysis_NLP.ipynb
     ```
 
 
-## Struktur Proyek
-- `ulasan_aplikasi_cookpad2.csv`: Folder untuk menyimpan data mentah dan hasil pengolahan.
-- `Scrap_data.ipynbpy`: Mengambil data dari playstore
-- `Sentiment_Analysis_NLP.ipynb`: Melakukan analisis sentimen.
-- `requirements.txt`: Daftar dependencies yang diperlukan.
+## Project Structure
+- `ulasan_aplikasi_cookpad2.csv`: Folder to store raw data and processing results.
+- `Scrap_data.ipynbpy`: Scrap data from playstore.
+- `Sentiment_Analysis_NLP.ipynb`: Perform sentiment analysis.
+- `requirements.txt`: List of required dependencies.
 
-## Kontribusi
-Kontribusi sangat diterima! Silakan fork repository ini dan buat pull request dengan perubahan yang Anda usulkan.
+## Contribution
+Contributions are very welcome! Please fork this repository and create a pull request with your proposed changes.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
